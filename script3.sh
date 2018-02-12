@@ -8,13 +8,6 @@ echo into abyss > /dev/null
 dd if=/dev/zero of=filez bs=1024 count=1
 
 ls -l
-#Using the nano text editor to view filez that was just created
-nano filez
-
-#Exit nano text editor using Control X
-^x
-
-rm filez
 
 #Using the lssci tool to list SCSI devices and device paths and send output into new file
 #If not installed run sudo apt-get install lsscsi
