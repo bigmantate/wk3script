@@ -1,4 +1,4 @@
-s#!/bin/bash
+#!/bin/bash
 #week 3 script 3
 
 #Redirecting standard output to a file, this file is disregarded by kernel 
