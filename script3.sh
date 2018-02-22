@@ -3,7 +3,7 @@
 #week 3 script 3
 
 #Redirecting standard output to a file, this file is disregarded by kernel 
-echo into abyss > /dev/null
+echo "into the abyss" > /dev/null
 
 #Using the dd program to copy data in blocks in a fixed size for a file, filez
 dd if=/dev/zero of=filez bs=1024 count=1
